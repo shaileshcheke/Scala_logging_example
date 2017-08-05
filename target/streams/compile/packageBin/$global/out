@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0mPackaging /home/shailesh/practice_code/scala/Logback_scala_example/target/scala-2.10/logback-example_2.10-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	com[0m
+[0m[[0mdebug[0m] [0m	  /home/shailesh/practice_code/scala/Logback_scala_example/target/scala-2.10/classes/com[0m
+[0m[[0mdebug[0m] [0m	com/sc[0m
+[0m[[0mdebug[0m] [0m	  /home/shailesh/practice_code/scala/Logback_scala_example/target/scala-2.10/classes/com/sc[0m
+[0m[[0mdebug[0m] [0m	com/sc/log[0m
+[0m[[0mdebug[0m] [0m	  /home/shailesh/practice_code/scala/Logback_scala_example/target/scala-2.10/classes/com/sc/log[0m
+[0m[[0mdebug[0m] [0m	com/sc/log/MyClass.class[0m
+[0m[[0mdebug[0m] [0m	  /home/shailesh/practice_code/scala/Logback_scala_example/target/scala-2.10/classes/com/sc/log/MyClass.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

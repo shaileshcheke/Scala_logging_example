@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="logback-example"
+		module="logback-example_2.10"
+		revision="1.0"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170805231831"/>
+	<dependencies>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.0.3" status="release" pubdate="20120504040810" resolver="public" artresolver="public" homepage="http://logback.qos.ch" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="successful" details="" size="12963" time="2427" location="/root/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.0.3.xml" searched="true" original-local-location="/root/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.0.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.3/logback-classic-1.0.3.pom"/>
+				<caller organisation="logback-example" name="logback-example_2.10" conf="compile-internal, compile, provided, optional" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="logback-classic" type="jar" ext="jar" status="successful" details="" size="248737" time="3482" location="/root/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.3/logback-classic-1.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.0.3" status="release" pubdate="20120504040655" resolver="public" artresolver="public" homepage="http://logback.qos.ch" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="7">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="successful" details="" size="5282" time="2865" location="/root/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.0.3.xml" searched="true" original-local-location="/root/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.0.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.3/logback-core-1.0.3.pom"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.0.3"/>
+				<artifacts>
+					<artifact name="logback-core" type="jar" ext="jar" status="successful" details="" size="332478" time="3741" location="/root/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.3/logback-core-1.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="scalalogging-slf4j_2.10">
+			<revision name="1.0.1" status="release" pubdate="20121224041332" resolver="public" artresolver="public" homepage="https://github.com/typesafehub/scalalogging" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="1707" time="2561" location="/root/.ivy2/cache/com.typesafe/scalalogging-slf4j_2.10/ivy-1.0.1.xml" searched="true" original-local-location="/root/.ivy2/cache/com.typesafe/scalalogging-slf4j_2.10/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scalalogging-slf4j_2.10/1.0.1/scalalogging-slf4j_2.10-1.0.1.pom"/>
+				<caller organisation="logback-example" name="logback-example_2.10" conf="compile-internal, compile, provided, optional" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalalogging-slf4j_2.10" type="jar" ext="jar" status="successful" details="" size="78152" time="3158" location="/root/.ivy2/cache/com.typesafe/scalalogging-slf4j_2.10/jars/scalalogging-slf4j_2.10-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scalalogging-slf4j_2.10/1.0.1/scalalogging-slf4j_2.10-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging-slf4j_2.10">
+			<revision name="2.1.2" status="release" pubdate="20140425155044" resolver="public" artresolver="public" homepage="https://github.com/typesafehub/scala-logging" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="2742" time="2458" location="/root/.ivy2/cache/com.typesafe.scala-logging/scala-logging-slf4j_2.10/ivy-2.1.2.xml" searched="true" original-local-location="/root/.ivy2/cache/com.typesafe.scala-logging/scala-logging-slf4j_2.10/ivy-2.1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.10/2.1.2/scala-logging-slf4j_2.10-2.1.2.pom"/>
+				<caller organisation="logback-example" name="logback-example_2.10" conf="compile-internal, compile, provided, optional" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-logging-slf4j_2.10" type="jar" ext="jar" status="successful" details="" size="76163" time="3161" location="/root/.ivy2/cache/com.typesafe.scala-logging/scala-logging-slf4j_2.10/jars/scala-logging-slf4j_2.10-2.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.10/2.1.2/scala-logging-slf4j_2.10-2.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.7" status="release" pubdate="20140404164248" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master, default(compile)" position="4">
+				<metadata-artifact status="no" details="" size="4567" time="0" location="/root/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.7.xml" searched="false" original-local-location="/root/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom"/>
+				<caller organisation="com.typesafe" name="scalalogging-slf4j_2.10" conf="default, compile, runtime, master" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="1.0.1"/>
+				<caller organisation="logback-example" name="logback-example_2.10" conf="compile-internal, compile, provided, optional" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="1.0"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging-slf4j_2.10" conf="default, compile, runtime, master" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="2.1.2"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.0.3"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="29257" time="0" location="/root/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.6.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.7"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.0.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="default, compile, runtime, default(compile), master" position="-1">
+				<evicted-by rev="1.7.7"/>
+				<caller organisation="logback-example" name="logback-example_2.10" conf="compile-internal, compile, provided, optional" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.7"/>
+				<caller organisation="com.typesafe" name="scalalogging-slf4j_2.10" conf="default, compile, runtime, master" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="1.0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.4" status="release" pubdate="20160205113451" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="master(*), default, test, runtime(*), provided, compile(*)" position="3">
+				<metadata-artifact status="no" details="" size="518" time="0" location="/root/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.4.xml" searched="false" original-local-location="/usr/share/sbt/ivy-local/org.scala-lang/scala-reflect/2.10.4/ivy.xml" origin-is-local="true" origin-location="/usr/share/sbt/ivy-local/org.scala-lang/scala-reflect/2.10.4/ivy.xml"/>
+				<caller organisation="com.typesafe" name="scalalogging-slf4j_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="1.0.1"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging-slf4j_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.1.2"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3333425" time="0" location="/usr/share/sbt/ivy-local/org.scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.jar">
+						<origin-location is-local="true" location="/usr/share/sbt/ivy-local/org.scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.10.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), default, test, runtime(*), provided, compile(*)" position="-1">
+				<evicted-by rev="2.10.4"/>
+				<caller organisation="com.typesafe" name="scalalogging-slf4j_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="1.0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging-api_2.10">
+			<revision name="2.1.2" status="release" pubdate="20140425155040" resolver="public" artresolver="public" homepage="https://github.com/typesafehub/scala-logging" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="2">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="1568" time="2458" location="/root/.ivy2/cache/com.typesafe.scala-logging/scala-logging-api_2.10/ivy-2.1.2.xml" searched="true" original-local-location="/root/.ivy2/cache/com.typesafe.scala-logging/scala-logging-api_2.10/ivy-2.1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-api_2.10/2.1.2/scala-logging-api_2.10-2.1.2.pom"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging-slf4j_2.10" conf="default, compile, runtime, master" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="2.1.2"/>
+				<artifacts>
+					<artifact name="scala-logging-api_2.10" type="jar" ext="jar" status="successful" details="" size="7694" time="1735" location="/root/.ivy2/cache/com.typesafe.scala-logging/scala-logging-api_2.10/jars/scala-logging-api_2.10-2.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-api_2.10/2.1.2/scala-logging-api_2.10-2.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.4" status="release" pubdate="20160205113451" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default, master(*), test, runtime(*), provided, default(compile), compile(*)" position="0">
+				<metadata-artifact status="no" details="" size="421" time="0" location="/root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.4.xml" searched="false" original-local-location="/usr/share/sbt/ivy-local/org.scala-lang/scala-library/2.10.4/ivy.xml" origin-is-local="true" origin-location="/usr/share/sbt/ivy-local/org.scala-lang/scala-library/2.10.4/ivy.xml"/>
+				<caller organisation="logback-example" name="logback-example_2.10" conf="compile-internal, compile, provided, optional" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.0"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging-slf4j_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.1.2"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging-api_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.1.2"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="default, test, provided" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.10.4"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7078312" time="0" location="/usr/share/sbt/ivy-local/org.scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar">
+						<origin-location is-local="true" location="/usr/share/sbt/ivy-local/org.scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

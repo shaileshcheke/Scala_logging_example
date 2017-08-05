@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="flink-examples"
+		module="flink-examples_2.10"
+		revision="1.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170805222751"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.4" status="release" pubdate="20160205113451" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default, default(compile)" position="0">
+				<metadata-artifact status="no" details="" size="421" time="0" location="/root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.4.xml" searched="false" original-local-location="/usr/share/sbt/ivy-local/org.scala-lang/scala-library/2.10.4/ivy.xml" origin-is-local="true" origin-location="/usr/share/sbt/ivy-local/org.scala-lang/scala-library/2.10.4/ivy.xml"/>
+				<caller organisation="flink-examples" name="flink-examples_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7078312" time="0" location="/usr/share/sbt/ivy-local/org.scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar">
+						<origin-location is-local="true" location="/usr/share/sbt/ivy-local/org.scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.2.3" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="flink-examples" name="flink-examples_2.10" conf="compile, runtime" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging_2.10">
+			<revision name="2.1.2" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="flink-examples" name="flink-examples_2.10" conf="compile, runtime" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
