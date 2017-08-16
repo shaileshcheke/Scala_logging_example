@@ -1,0 +1,17 @@
+[0m[[0minfo[0m] [0mRunning com.sc.log.MyClass [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/home/shailesh/practice_code/scala/Logback_scala_example/target/scala-2.10/classes[0m
+[0m[[0mdebug[0m] [0m	/root/.sbt/boot/scala-2.10.4/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	/root/.ivy2/cache/com.typesafe.scala-logging/scala-logging-slf4j_2.10/jars/scala-logging-slf4j_2.10-2.1.2.jar[0m
+[0m[[0mdebug[0m] [0m	/root/.ivy2/cache/com.typesafe.scala-logging/scala-logging-api_2.10/jars/scala-logging-api_2.10-2.1.2.jar[0m
+[0m[[0mdebug[0m] [0m	/root/.sbt/boot/scala-2.10.4/lib/scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	/root/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0m	/root/.ivy2/cache/com.typesafe/scalalogging-slf4j_2.10/jars/scalalogging-slf4j_2.10-1.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	/root/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.0.3.jar[0m
+[0m[[0mdebug[0m] [0m	/root/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.0.3.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m
